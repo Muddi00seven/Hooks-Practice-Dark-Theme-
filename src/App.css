@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.room {
+  height: 100vh;
+}
+
+.lit{
+  background-color: white;
+  color: black;
+}
+
+.dark{
+  background-color: black;
+  color: white;
+}
