@@ -6,7 +6,7 @@ const Parent = () => {
     let p = document.getElementById('p');
     const [isLit, setLit] = useState(true);
     let [age, setAge] = useState(24);
-    let [decrease , decreaseAge] = useState(age)
+    // let [decrease , decreaseAge] = useState(age)
   
     const lightUpdate = () => {
         console.log('button click');
@@ -22,8 +22,7 @@ const Parent = () => {
   
   
   const ageDecrease = () => {
-    console.log('button click');
-    decreaseAge(p = --age);
+   setAge(--age)
   }
   
     return (
