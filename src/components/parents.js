@@ -1,19 +1,13 @@
 import React ,{ useState } from 'react'
 import Child from './child'
-import '../App.css'
+import styles from '../App.css'
 
 const Parent = () => {
     let p = document.getElementById('p');
     const [isLit, setLit] = useState(true);
     let [age, setAge] = useState(24);
     // let [decrease , decreaseAge] = useState(age)
-  
-    const lightUpdate = () => {
-        console.log('button click');
-        setLit(!isLit);  
-  
-    
-    }
+
   
     const ageIncrease = () => {
       console.log('button click');
